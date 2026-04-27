@@ -116,7 +116,7 @@ No credentials are hardcoded anywhere in the project. Secrets are managed at two
 | `sql-username` | SQL admin username |
 | `sql-password` | SQL admin password |
 
-**Local generators (writing to ADLS)** — The `generate_to_adls.py` script runs locally and needs the ADLS storage account key. This is loaded from a `.env` file via `python-dotenv` and read through `os.environ`. The `.env` file is excluded from version control via `.gitignore`.
+**Local generators (writing to ADLS)** — The `generate_to_adls.py` script runs locally and needs the ADLS storage account key. This is loaded from a `.env` file via `python-dotenv` and read through `os.environ`.
 
 ```
 # .env
