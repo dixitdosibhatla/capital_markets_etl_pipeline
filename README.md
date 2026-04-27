@@ -2,8 +2,6 @@
 
 An end-to-end streaming ETL pipeline on **Azure Databricks** that processes simulated trade executions and market data through a **Medallion Architecture** (Bronze → Silver → Gold) using Delta Live Tables, Unity Catalog, and Power BI.
 
-![Architecture](docs/architecture.png)
-
 ---
 
 ## What It Does
@@ -19,24 +17,9 @@ An end-to-end streaming ETL pipeline on **Azure Databricks** that processes simu
 ## Architecture
 
 ```
-Generator Scripts ──► ADLS Gen2 ──► Auto Loader (Streaming)──┐
-                                                              │
-Azure SQL DB ──────► JDBC (Batch) ────────────────────────────┤
-  (instruments, traders, counterparties)                      │
-                                                              ▼
-                                              Unity Catalog: capital_markets_etl
-                                              ┌──────────────────────────────┐
-                                              │  Bronze (5) → Silver (6)    │
-                                              │     → Gold (6)              │
-                                              │  DLT Pipeline (Continuous)  │
-                                              │  Serverless Compute         │
-                                              └──────────┬───────────────────┘
-                                                         │
-                                              SQL Warehouse (DirectQuery)
-                                                         │
-                                                    Power BI
+Trade executions and market data ticks are generated as JSON files and land in ADLS Gen2, where Auto Loader picks them up as a continuous stream. Reference data (instruments, traders, counterparties) is batch-loaded from Azure SQL DB via JDBC. A single DLT pipeline running in continuous mode on Serverless compute processes everything through three layers — Bronze (raw ingestion), Silver (enrichment, deduplication, SCD2, data quality enforcement), and Gold (aggregated KPIs like desk P&L, risk exposure, and anomaly detection). All tables are governed under Unity Catalog with managed storage on ADLS. A Databricks SQL Warehouse exposes the Gold layer to Power BI via DirectQuery for live dashboarding.
 ```
-
+![Architecture](docs/architecture.png)
 ---
 
 ## Tech Stack
