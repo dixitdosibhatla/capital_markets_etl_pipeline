@@ -1,0 +1,26 @@
+trader_id,trader_name,desk,desk_full_name,risk_limit_usd,manager,location
+TR-001,James Chen,EQ,Equities Trading,5000000,Sarah Mitchell,New York
+TR-002,Sarah Mitchell,EQ,Equities Trading,10000000,,New York
+TR-003,Michael Torres,EQ,Equities Trading,5000000,Sarah Mitchell,New York
+TR-004,Emily Zhang,EQ,Equities Trading,3000000,Sarah Mitchell,New York
+TR-005,David Kim,EQ,Equities Trading,5000000,Sarah Mitchell,Chicago
+TR-006,Rachel Green,FI,Fixed Income,8000000,Robert Hayes,New York
+TR-007,Robert Hayes,FI,Fixed Income,15000000,,New York
+TR-008,Lisa Wang,FI,Fixed Income,6000000,Robert Hayes,London
+TR-009,Kevin Patel,FI,Fixed Income,5000000,Robert Hayes,New York
+TR-010,Amanda Foster,FI,Fixed Income,4000000,Robert Hayes,London
+TR-011,Chris Rodriguez,DRV,Derivatives,12000000,Nina Volkov,New York
+TR-012,Nina Volkov,DRV,Derivatives,20000000,,New York
+TR-013,Tom Bradley,DRV,Derivatives,8000000,Nina Volkov,Chicago
+TR-014,Priya Sharma,DRV,Derivatives,6000000,Nina Volkov,New York
+TR-015,Alex Murphy,ETF,ETF Trading,7000000,Jennifer Liu,New York
+TR-016,Jennifer Liu,ETF,ETF Trading,12000000,,New York
+TR-017,Marcus Johnson,ETF,ETF Trading,5000000,Jennifer Liu,Chicago
+TR-018,Sophie Martin,ETF,ETF Trading,4000000,Jennifer Liu,London
+TR-019,Daniel Lee,MACRO,Macro Trading,15000000,Victor Petrov,New York
+TR-020,Victor Petrov,MACRO,Macro Trading,25000000,,New York
+TR-021,Hannah Wilson,MACRO,Macro Trading,10000000,Victor Petrov,London
+TR-022,Ryan Clark,ALGO,Algorithmic Trading,8000000,Mei Lin,New York
+TR-023,Mei Lin,ALGO,Algorithmic Trading,15000000,,New York
+TR-024,Jason Park,ALGO,Algorithmic Trading,6000000,Mei Lin,New York
+TR-025,Olivia Brown,ALGO,Algorithmic Trading,5000000,Mei Lin,Chicago

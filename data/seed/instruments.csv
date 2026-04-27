@@ -1,0 +1,51 @@
+ticker,company_name,sector,asset_class,currency,exchange,base_price
+AAPL,Apple Inc,Technology,EQUITY,USD,NASDAQ,185.50
+MSFT,Microsoft Corp,Technology,EQUITY,USD,NASDAQ,420.30
+GOOGL,Alphabet Inc,Technology,EQUITY,USD,NASDAQ,175.20
+AMZN,Amazon.com Inc,Technology,EQUITY,USD,NASDAQ,185.60
+META,Meta Platforms Inc,Technology,EQUITY,USD,NASDAQ,505.40
+NVDA,NVIDIA Corp,Technology,EQUITY,USD,NASDAQ,880.50
+TSLA,Tesla Inc,Automotive,EQUITY,USD,NASDAQ,175.80
+JPM,JPMorgan Chase,Financials,EQUITY,USD,NYSE,198.40
+BAC,Bank of America,Financials,EQUITY,USD,NYSE,37.50
+GS,Goldman Sachs,Financials,EQUITY,USD,NYSE,465.20
+MS,Morgan Stanley,Financials,EQUITY,USD,NYSE,95.80
+C,Citigroup Inc,Financials,EQUITY,USD,NYSE,58.30
+WFC,Wells Fargo,Financials,EQUITY,USD,NYSE,58.90
+JNJ,Johnson & Johnson,Healthcare,EQUITY,USD,NYSE,156.70
+UNH,UnitedHealth Group,Healthcare,EQUITY,USD,NYSE,520.40
+PFE,Pfizer Inc,Healthcare,EQUITY,USD,NYSE,27.80
+MRK,Merck & Co,Healthcare,EQUITY,USD,NYSE,128.50
+ABBV,AbbVie Inc,Healthcare,EQUITY,USD,NYSE,175.30
+LLY,Eli Lilly,Healthcare,EQUITY,USD,NYSE,790.60
+XOM,Exxon Mobil,Energy,EQUITY,USD,NYSE,110.20
+CVX,Chevron Corp,Energy,EQUITY,USD,NYSE,155.40
+COP,ConocoPhillips,Energy,EQUITY,USD,NYSE,115.80
+PG,Procter & Gamble,Consumer Staples,EQUITY,USD,NYSE,162.30
+KO,Coca-Cola Co,Consumer Staples,EQUITY,USD,NYSE,60.80
+PEP,PepsiCo Inc,Consumer Staples,EQUITY,USD,NYSE,175.40
+WMT,Walmart Inc,Consumer Staples,EQUITY,USD,NYSE,168.20
+COST,Costco Wholesale,Consumer Staples,EQUITY,USD,NYSE,735.50
+DIS,Walt Disney Co,Communication,EQUITY,USD,NYSE,112.40
+NFLX,Netflix Inc,Communication,EQUITY,USD,NASDAQ,625.30
+V,Visa Inc,Financials,EQUITY,USD,NYSE,280.50
+MA,Mastercard Inc,Financials,EQUITY,USD,NYSE,465.70
+ADBE,Adobe Inc,Technology,EQUITY,USD,NASDAQ,510.60
+CRM,Salesforce Inc,Technology,EQUITY,USD,NYSE,270.40
+ORCL,Oracle Corp,Technology,EQUITY,USD,NYSE,125.80
+IBM,IBM Corp,Technology,EQUITY,USD,NYSE,190.30
+INTC,Intel Corp,Technology,EQUITY,USD,NASDAQ,42.50
+AMD,Advanced Micro Devices,Technology,EQUITY,USD,NASDAQ,175.90
+QCOM,Qualcomm Inc,Technology,EQUITY,USD,NASDAQ,165.40
+CAT,Caterpillar Inc,Industrials,EQUITY,USD,NYSE,355.20
+BA,Boeing Co,Industrials,EQUITY,USD,NYSE,185.60
+HON,Honeywell Intl,Industrials,EQUITY,USD,NASDAQ,202.30
+UPS,United Parcel Service,Industrials,EQUITY,USD,NYSE,148.70
+SPY,SPDR S&P 500 ETF,Index,ETF,USD,NYSE,510.80
+QQQ,Invesco QQQ Trust,Index,ETF,USD,NASDAQ,440.20
+IWM,iShares Russell 2000,Index,ETF,USD,NYSE,205.30
+TLT,iShares 20+ Year Treasury,Fixed Income,ETF,USD,NASDAQ,92.40
+HYG,iShares High Yield Corp Bond,Fixed Income,ETF,USD,NYSE,77.80
+LQD,iShares Inv Grade Corp Bond,Fixed Income,ETF,USD,NYSE,108.50
+GLD,SPDR Gold Shares,Commodities,ETF,USD,NYSE,215.60
+USO,United States Oil Fund,Commodities,ETF,USD,NYSE,72.30

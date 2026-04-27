@@ -1,0 +1,85 @@
+Microsoft Azure
+Search data, notebooks, recents, and more...
+CTRL + P
+Jobs & Pipelines
+Pipeline settings
+1
+{
+2
+    "id": "8e6c6230-7094-4998-b0f7-bde8c682e9b4",
+3
+    "pipeline_type": "WORKSPACE",
+4
+    "development": true,
+5
+    "continuous": true,
+6
+    "channel": "CURRENT",
+7
+    "photon": true,
+8
+    "libraries": [
+9
+        {
+10
+            "notebook": {
+11
+                "path": "/Users/your@workspace.com/capital-markets-streaming-etl/dlt_pipelines/01_bronze_layer"
+12
+            }
+13
+        },
+14
+        {
+15
+            "notebook": {
+16
+                "path": "/Users/your@workspace.com/capital-markets-streaming-etl/dlt_pipelines/02_silver_layer"
+17
+            }
+18
+        },
+19
+        {
+20
+            "notebook": {
+21
+                "path": "/Users/your@workspace.com/capital-markets-streaming-etl/dlt_pipelines/03_gold_layer"
+22
+            }
+23
+        }
+24
+    ],
+25
+    "name": "capital_markets_pipeline",
+26
+    "serverless": true,
+27
+    "catalog": "capital_markets_etl",
+28
+    "configuration": {
+29
+        "pipelines.trigger.interval": "10 seconds"
+30
+    },
+31
+    "tags": [
+32
+        {
+33
+            "key": "pipelines.applyChangesPreviewEnabled",
+34
+            "value": "true"
+35
+        }
+36
+    ],
+37
+    "schema": "default"
+38
+}
+
+UI
+
+JSON
